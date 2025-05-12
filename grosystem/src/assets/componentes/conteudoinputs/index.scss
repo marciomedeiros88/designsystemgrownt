@@ -1,0 +1,86 @@
+.Conteudoinputs{
+    display:flex;
+    flex-direction: row;
+    width:90%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom:6em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+
+    .cardinputs{
+        width:100%;
+    }
+
+    .tituloinputs{
+        color:#1a2437;
+        text-align:left;
+    }
+
+    .titulocardinputs{
+        display:flex;
+        margin-bottom:2em;
+    }
+
+    .tituloinput{
+        width:100%;
+        margin-top:2em;
+        h1{
+        font-size:38pt;
+        font-weight: 600;
+        font-family: var(--fonte-titulos) !important;
+    }}
+    .exemploinput{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        gap:1em;
+    }
+    .input{
+        margin-top:1em;
+        padding:1em;
+        border-radius:1em;
+        border: solid 1px;
+        width:100%;
+    }
+    .inputstext{
+        display:flex;
+        flex-direction:row;
+        width:90%;
+        gap:1em;
+    }
+    .textarea{
+        margin-top:1em;
+        padding:1em;
+        border-radius:1em;
+        border: solid 1px;
+        width:100%;
+        height: 10em;
+        resize:none;
+    }
+
+    .filearea{
+        margin-top:1em;
+        padding:1em;
+        border-radius:1em;
+        border: solid 1px;
+        width:100%;
+        height: 5em;
+        resize:none;
+        background-color:#ececec;
+    }
+    .areainput{
+        width:100%;
+    }
+    .inputsfile{
+        display:flex;
+        flex-direction:row;
+        width:90%;
+        gap:1em;
+        
+    }
+}

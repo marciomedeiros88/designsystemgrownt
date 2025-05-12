@@ -1,0 +1,10 @@
+.Logotipo{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    box-sizing: content-box;
+    .motion.div{
+        width:100%;
+        box-sizing: content-box;
+    }
+}

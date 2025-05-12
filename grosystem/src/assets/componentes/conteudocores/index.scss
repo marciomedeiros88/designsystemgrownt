@@ -1,0 +1,134 @@
+.Sectioncores{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:center;
+    width: 90%;
+    height: fit-content;
+    padding-bottom:6em;
+}
+
+.Conteudocores{
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    margin: auto;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+    position:relative;
+
+    .cardcores{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-items: flex-start;
+        justify-content: flex-start;
+        padding:1em;
+    }
+
+    .titulocardcores{
+
+        margin-bottom:2em;
+    }
+
+    .titulocores{
+        color:#1a2437;
+        text-align:center;
+    }
+    .titulocor{
+        width:100%;
+        h1{
+        font-size:38pt;
+        font-weight: 600;
+        font-family: var(--fonte-titulos) !important;
+    }}
+    .blococor{
+        width:28em;
+        height:10em;
+        border-radius:1em;
+        margin-top:2em;
+        padding:1em;
+        align-content:flex-end;
+
+        p{  
+            font-size:10pt !important;
+            line-height: 1.6;
+            align-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .blococorsecundaria{
+        width:12em;
+        height:8em;
+        border-radius:1em;
+        margin-top:2em;
+        padding:1em;
+        align-content:flex-end;
+
+        p{
+            font-size:10pt !important;
+            line-height: 1.6;
+            align-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .laranjagrownt{
+        background-color: var(--laranja);
+    }
+    .azulgrownt{
+        background-color: var(--azul-escuro);
+    }
+    .azulclarogrownt{
+        background-color: var(--azul-claro);
+    }
+    .azulmediogrownt{
+        background-color: var(--azul-medio);
+    }
+    .begegrownt{
+        background-color: var(--bege);
+    }
+    .cinzagrownt{
+        background-color: var(--cinza);
+    }
+    .fontebranca{
+        color:white;
+        line-height: 2;
+    }
+    .fonteazulescuro{
+        color:var(--azul-escuro);
+        line-height: 2;
+    }
+
+}
+
+.spancopiado{
+    display:flex;
+    align-items: center;
+    position: absolute;
+    z-index:2;
+    margin-top: 15%;
+    padding:1em;
+    background-color: #dadada;
+    border-radius:0.5em;
+    color:var(--azul-escuro);
+    font-family: var(--fonte-paragrafos);
+    font-size:1em;
+    font-weight: 700;
+}
+
+.iconCopy{
+    margin-left: 0.5em;
+    width: 15px;
+    height:15px;
+}

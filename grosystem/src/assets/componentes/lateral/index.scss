@@ -1,0 +1,35 @@
+.Lateral{
+    width:17%;
+    padding:2em 2em 4em 2em;
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    z-index:3;
+    height:auto;
+
+    li{
+        
+        list-style:none;
+        color: var(--azul-escuro);
+        font-size: 16pt;
+        margin: 1em auto;
+        cursor: pointer;
+        transition: scale 500ms;
+
+        :hover{
+                scale: 1.2;
+            color:var(--azul-claro);
+            transition: scale 500ms;
+        }
+    }
+    a{
+        text-decoration:none;
+        color: var(--azul-escuro);
+    }
+}
+
+.NumeroMenu{
+    font-size:20pt;
+    color:var(--bege);
+    font-family:var(--fonte-titulos);
+}

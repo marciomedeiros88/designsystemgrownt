@@ -1,0 +1,44 @@
+.Conteudoiconografia{
+    display:flex;
+    flex-direction: row;
+    width:90%;
+    margin: auto;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+
+    .cardicones{
+        width:100%;
+    }
+
+    .tituloicones{
+        color:#1a2437;
+        text-align:left;
+    }
+
+    .titulocardicones{
+        display:flex;
+        margin-bottom:2em;
+    }
+
+    .imagensicones{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        margin-top:1em;
+        img{
+            width:2em;
+            margin:0.75em;
+        }
+    }
+
+    
+}
+
+.Iconeindividual{
+    
+}

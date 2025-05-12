@@ -1,0 +1,40 @@
+.Conteudologotipo{
+    gap: 2em;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:90%;
+    height:100%;
+    margin: auto;
+    background-color: white;
+    align-items:center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-around;
+    
+
+    .cardlogotipo{
+        display:flex;
+        flex-direction: column;
+        height:auto;
+        align-items:center;
+        align-content: center;
+    }
+
+    .titulologotipo{
+        color:#1a2437;
+        text-align:center;
+    }
+
+    .imagemlogo{
+        padding:2em;
+        width:15em;
+    }
+    .imagemlogomenor{
+        padding:2em;
+        width:10em;
+    }
+    .linhalogomenor{
+        display:flex;
+    }
+}

@@ -1,0 +1,19 @@
+.Header{
+    background-color: var(--azul-claro);
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:3vw;
+
+    p{
+        color:#1a2437;
+        font-size:14pt;
+    }
+
+    img{
+        height:3rem;
+    }
+    
+}

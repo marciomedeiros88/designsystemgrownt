@@ -1,0 +1,40 @@
+.Conteudoimagens{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    width:90%;
+    position:relative;
+    
+
+    .listaimagens{
+        display:flex;
+        flex-direction:row;
+        gap:2em;
+        flex-wrap:wrap;
+        width:auto;
+        padding-bottom:6em;
+    }
+
+    .cardimagens{
+        display:flex;
+        flex-direction: column;
+        height:auto;
+        align-items:flex-start;
+        align-content: center;
+        padding-top:2em;
+    }
+
+    .tituloimagens{
+        color:#1a2437;
+        text-align:center;
+        padding-bottom:1em;
+        padding-top:1em;
+    }
+    .imagem{
+        padding-top:1em;
+        width:auto;
+        img{
+            width:22em;
+        border-radius:1em;
+    }}
+}

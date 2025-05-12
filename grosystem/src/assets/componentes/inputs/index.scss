@@ -1,0 +1,10 @@
+.Inputs{
+    display: flex;
+    flex-direction: row;
+    height:86vh;
+    box-sizing: content-box;
+    .motion.div{
+        width:100%;
+        box-sizing: content-box;
+    }
+}

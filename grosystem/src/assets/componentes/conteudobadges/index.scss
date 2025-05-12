@@ -1,0 +1,246 @@
+.Conteudobadges{
+    display:flex;
+    flex-direction: row;
+    width:90%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom:6em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+    gap:2em;
+
+    .cardbadges{
+        width:100%;
+    }
+
+    .titulobadges{
+        color:#1a2437;
+        text-align:left;
+    }
+
+    .titulocardbadges{
+        display:flex;
+        margin-bottom:2em;
+    }
+
+    .titulobadge{
+        width:100%;
+        margin-top:2em;
+        h1{
+        font-size:38pt;
+        font-weight: 600;
+        font-family: var(--fonte-titulos) !important;
+    }}
+    .exemplobadge{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        gap:1em;
+    }
+    .badgeverde{
+        border: solid 1px;
+        border-color: var(--verde);
+        background-color: var(--verde-light);
+        font-size: var(--fonteparagrafos);
+        width:auto;
+        height: 1em;
+        padding: 0.25em 3em;
+        border-radius:1em;
+        font-weight: 500;
+        color: var(--verde);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+        }
+    }
+    .badgeamarelo{
+        border: solid 1px;
+        border-color: var(--amarelo);
+        background-color: var(--amarelo-light);
+        font-size: var(--fonteparagrafos);
+        width:auto;
+        height: 1em;
+        padding: 0.25em 3em;
+        border-radius:1em;
+        font-weight: 500;
+        color: var(--amarelo);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+            margin-left:1em;
+        }
+    }
+    .badgevermelho{
+        border: solid 1px;
+        border-color: var(--vermelho);
+        background-color: var(--vermelho-light);
+        font-size: var(--fonteparagrafos);
+        width:auto;
+        height: 1em;
+        padding: 0.25em 3em;
+        border-radius:1em;
+        font-weight: 500;
+        color: var(--vermelho);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+            margin-left:1em;
+        }
+    }
+    .badgeazul{
+        border: solid 1px;
+        border-color: var(--azul);
+        background-color: var(--azul-light);
+        font-size: var(--fonteparagrafos);
+        width:auto;
+        height: 1em;
+        padding: 0.25em 3em;
+        border-radius:1em;
+        font-weight: 500;
+        color: var(--azul);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        cursor: context-menu;
+        img{
+            width:1em;
+            margin-left:1em;
+        }
+    }
+    .badgelilas{
+        border: solid 1px;
+        border-color: var(--lilas);
+        background-color: var(--lilas-light);
+        font-size: var(--fonteparagrafos);
+        width:auto;
+        height: 1em;
+        padding: 0.25em 3em;
+        border-radius:1em;
+        font-weight: 500;
+        color: var(--lilas);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+        }
+    }
+    .chipverde{
+        border: solid 1px;
+        border-color: var(--verde);
+        background-color: var(--verde-light);
+        font-size: var(--fonteparagrafos);
+        width:2em;
+        height: 2em;
+        padding: 0.25em;
+        border-radius:0.5em;
+        font-weight: 500;
+        color: var(--verde);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+        }
+    }
+    .chipamarelo{
+        border: solid 1px;
+        border-color: var(--amarelo);
+        background-color: var(--amarelo-light);
+        font-size: var(--fonteparagrafos);
+        width:2em;
+        height: 2em;
+        padding: 0.25em;
+        border-radius:0.5em;
+        font-weight: 500;
+        color: var(--amarelo);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+        }
+    }
+    .chipvermelho{
+        border: solid 1px;
+        border-color: var(--vermelho);
+        background-color: var(--vermelho-light);
+        font-size: var(--fonteparagrafos);
+        width:2em;
+        height: 2em;
+        padding: 0.25em;
+        border-radius:0.5em;
+        font-weight: 500;
+        color: var(--vermelho);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+        }
+    }
+    .chipazul{
+        border: solid 1px;
+        border-color: var(--azul);
+        background-color: var(--azul-light);
+        font-size: var(--fonteparagrafos);
+        width:2em;
+        height: 2em;
+        padding: 0.25em;
+        border-radius:0.5em;
+        font-weight: 500;
+        color: var(--azul);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+        }
+    }
+    .chiplilas{
+        border: solid 1px;
+        border-color: var(--lilas);
+        background-color: var(--lilas-light);
+        font-size: var(--fonteparagrafos);
+        width:2em;
+        height: 2em;
+        padding: 0.25em;
+        border-radius:0.5em;
+        font-weight: 500;
+        color: var(--lilas);
+        transition: all 500ms;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        cursor: context-menu;
+        img{
+            width:1em;
+        }
+    }
+}

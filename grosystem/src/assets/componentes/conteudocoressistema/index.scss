@@ -1,0 +1,55 @@
+.Sectioncoressistema{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:center;
+    width: 90%;
+    height: fit-content;
+    padding-bottom:6em;
+}
+
+.Conteudocoressistema{
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    margin: auto;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+    position:relative;
+    gap:1em;
+
+    .blococores{
+        display:flex;
+        gap:1em;
+        flex-wrap: wrap;
+    }
+
+    .blococorsistema{
+        width:6em;
+        height:6em;
+        border-radius:1em;
+        margin-top:1em;
+        padding:1em;
+        align-content:flex-end;
+
+        p{  
+            font-size:10pt !important;
+            line-height: 1.6;
+            align-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+
+    .fontebranca{
+        color:white;
+        line-height: 2;
+    }
+
+}
