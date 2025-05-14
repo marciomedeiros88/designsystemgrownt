@@ -32,24 +32,28 @@ function Conteudocoressistema() {
   const verde200 = "#3c9c16";
   const verde300 = "#37930c";
   const verde400 = "#4dc91c";
+  const verde500 = "#8ee068";
 
   const vermelho50 = "#740d0d";
   const vermelho100 = "#961111";
   const vermelho200 = "#b81414";
   const vermelho300 = "#d31c1c";
   const vermelho400 = "#e41a1a";
+  const vermelho500 = "#ff3e3e";
 
   const amarelo50 = "#f47a00";
   const amarelo100 = "#ff9810";
   const amarelo200 = "#e6931a";
   const amarelo300 = "#f4a337";
-  const amarelo400 = "#fcdfbe";
+  const amarelo400 = "#ffbe7d";
+  const amarelo500 = "#fcdfbe";
 
   const lilas50 = "#5f36ce";
   const lilas100 = "#713de2";
   const lilas200 = "#8749F3";
   const lilas300 = "#9062f4";
   const lilas400 = "#9b7af4";
+  const lilas500 = "#b09bf9";
 
   const [copied, setCopied] = useState(false);
 
@@ -82,21 +86,25 @@ function Conteudocoressistema() {
       vermelho200,
       vermelho300,
       vermelho400,
+      vermelho500,
       verde50,
       verde100,
       verde200,
       verde300,
       verde400,
+      verde500,
       amarelo50,
       amarelo100,
       amarelo200,
       amarelo300,
       amarelo400,
+      amarelo500,
       lilas50,
       lilas100,
       lilas200,
       lilas300,
       lilas400,
+      lilas500,
     ];
 
     try {
@@ -526,10 +534,11 @@ function Conteudocoressistema() {
         {/* VERDE */}
         <main className="Conteudocoressistema">
           <div>
-            <div className="titulocardcores">
+            <div className="titulocardcoressistema">
               <h2 className="titulocores">Cores de resposta</h2>
             </div>
           </div>
+
           <div className="blococores">
             <div className="cardcores">
               <div className="titulocor">
@@ -615,6 +624,24 @@ function Conteudocoressistema() {
                   {verde400}
                   <Copy
                     onClick={() => handleCopy(verde400)}
+                    className="iconCopy"
+                    title="Copiar código hexadecimal"
+                  />
+                </p>
+              </div>
+            </div>
+            <div className="cardcores">
+              <div className="titulocor">
+                <p>Verde 500</p>
+              </div>
+              <div
+                className="blococorsistema fontebranca"
+                style={{ backgroundColor: verde500 }}
+              >
+                <p>
+                  {verde500}
+                  <Copy
+                    onClick={() => handleCopy(verde500)}
                     className="iconCopy"
                     title="Copiar código hexadecimal"
                   />
@@ -716,6 +743,24 @@ function Conteudocoressistema() {
               </p>
             </div>
           </div>
+          <div className="cardcores">
+            <div className="titulocor">
+              <p>Vermelho 500</p>
+            </div>
+            <div
+              className="blococorsistema fontebranca"
+              style={{ backgroundColor: vermelho500 }}
+            >
+              <p>
+                {vermelho500}
+                <Copy
+                  onClick={() => handleCopy(vermelho500)}
+                  className="iconCopy"
+                  title="Copiar código hexadecimal"
+                />
+              </p>
+            </div>
+          </div>
         </main>
 
         {/* AMARELO */}
@@ -810,6 +855,24 @@ function Conteudocoressistema() {
               </p>
             </div>
           </div>
+          <div className="cardcores">
+            <div className="titulocor">
+              <p>Amarelo 500</p>
+            </div>
+            <div
+              className="blococorsistema fontebranca"
+              style={{ backgroundColor: amarelo500 }}
+            >
+              <p>
+                {amarelo500}
+                <Copy
+                  onClick={() => handleCopy(amarelo500)}
+                  className="iconCopy"
+                  title="Copiar código hexadecimal"
+                />
+              </p>
+            </div>
+          </div>
         </main>
 
         {/* LILÁS */}
@@ -898,6 +961,24 @@ function Conteudocoressistema() {
                 {lilas400}
                 <Copy
                   onClick={() => handleCopy(lilas400)}
+                  className="iconCopy"
+                  title="Copiar código hexadecimal"
+                />
+              </p>
+            </div>
+          </div>
+          <div className="cardcores">
+            <div className="titulocor">
+              <p>Lilás 500</p>
+            </div>
+            <div
+              className="blococorsistema fontebranca"
+              style={{ backgroundColor: lilas500 }}
+            >
+              <p>
+                {lilas500}
+                <Copy
+                  onClick={() => handleCopy(lilas500)}
                   className="iconCopy"
                   title="Copiar código hexadecimal"
                 />

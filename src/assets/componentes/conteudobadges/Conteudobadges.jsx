@@ -23,7 +23,6 @@ function Conteudobadges() {
   const [Cinzaclarohovered, setCinzaclaroHovered] = useState(false);
   const [Vermelhohovered, setVermelhoHovered] = useState(false);
 
-  
   return (
     <>
       <div className="Conteudobadges">
@@ -35,33 +34,16 @@ function Conteudobadges() {
             <p>Status de sistema</p>
           </div>
           <div className="exemplobadge">
-            <button className="badgeverde">
-              Aprovado
-            </button>
-            <button className="badgeverde">
-              Prazo longo
-            </button>
-            <button className="badgeamarelo">
-              Em andamento
-            </button>
-            <button className="badgeamarelo">
-              Atenção
-            </button>
-            <button className="badgevermelho">
-              Cancelado
-            </button>
-            <button className="badgevermelho">
-              Crítico
-            </button>
-            <button className="badgeazul">
-              Pendente
-            </button>
-            <button className="badgelilas">
-              Em aprovação
-            </button>
-            <button className="badgelilas">
-              Em análise
-            </button>            
+            <button className="badgeverde">Aprovado</button>
+            <button className="badgeverde">Prazo longo</button>
+            <button className="badgeamarelo">Em andamento</button>
+            <button className="badgeamarelo">Atenção</button>
+            <button className="badgevermelho">Cancelado</button>
+            <button className="badgevermelho">Crítico</button>
+            <button className="badgevermelhoescuro50">Reprovado</button>
+            <button className="badgeazul">Pendente</button>
+            <button className="badgelilas">Em aprovação</button>
+            <button className="badgelilas">Em análise</button>
           </div>
         </div>
         <div className="cardbadges">
@@ -71,37 +53,37 @@ function Conteudobadges() {
           <div className="titulobadges">
             <p>Chips de sistema</p>
           </div>
-          <div className="exemplobadge">     
+          <div className="exemplobadge">
             <button className="chipverde">
-            <img src={IconChatVerde} />
+              <img src={IconChatVerde} />
             </button>
             <button className="chipamarelo">
-            <img src={IconChatAmarelo} />
+              <img src={IconChatAmarelo} />
             </button>
             <button className="chipvermelho">
-            <img src={IconChatVermelho} />
+              <img src={IconChatVermelho} />
             </button>
             <button className="chipazul">
-            <img src={IconChatAzulClaro} />
+              <img src={IconChatAzulClaro} />
             </button>
             <button className="chiplilas">
-            <img src={IconChatLilas} />
+              <img src={IconChatLilas} />
             </button>
             <button className="chipverde">
-            <img src={IconAlertaVerde} />
+              <img src={IconAlertaVerde} />
             </button>
             <button className="chipamarelo">
-            <img src={IconAlertaAmarelo} />
+              <img src={IconAlertaAmarelo} />
             </button>
             <button className="chipvermelho">
-            <img src={IconAlertaVermelho} />
+              <img src={IconAlertaVermelho} />
             </button>
             <button className="chipazul">
-            <img src={IconAlertaAzulClaro} />
+              <img src={IconAlertaAzulClaro} />
             </button>
             <button className="chiplilas">
-            <img src={IconAlertaLilas} />
-            </button>          
+              <img src={IconAlertaLilas} />
+            </button>
           </div>
         </div>
         <div className="cardbadges">
@@ -111,7 +93,7 @@ function Conteudobadges() {
           <div className="titulobadges">
             <p>Toggles switchs</p>
           </div>
-          <div className="exemplotoggle">     
+          <div className="exemplotoggle">
             <label className="switch">
               <input type="checkbox"></input>
               <span className="sliderverde round"></span>
@@ -132,10 +114,8 @@ function Conteudobadges() {
               <input type="checkbox"></input>
               <span className="sliderlilas round"></span>
             </label>
-       
           </div>
-          </div>
-        
+        </div>
       </div>
     </>
   );

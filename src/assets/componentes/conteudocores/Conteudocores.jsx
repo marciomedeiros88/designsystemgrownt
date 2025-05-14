@@ -21,6 +21,7 @@ function Conteudocores() {
     --cinza-claro: #f0f2f4;
     --vermelho: #f03e3e;
     --vermelho-escuro: #9b1e1e;
+    --vermelho-escuro50: #740d0d;
     --verde-light: #E8F6EA;
     --verde: #3c9c16;
     --amarelo-light: #FFE3BA;
@@ -193,7 +194,7 @@ function Conteudocores() {
         </main>
         <main className="Conteudocores">
           <div className="cardcores">
-            <div class="titulocor">
+            <div className="titulocor">
               <h2>Variáveis</h2>
             </div>
             <div className="blocoroot cinzaclarogrownt fonteazulescuro">
@@ -222,6 +223,8 @@ function Conteudocores() {
                 --vermelho: #f03e3e;
                 <br />
                 --vermelho-escuro: #9b1e1e;
+                <br />
+                --vermelho-escuro50: #740d0d;
                 <br />
                 --verde-light: #E8F6EA;
                 <br />

@@ -103,6 +103,27 @@
             margin-left:1em;
         }
     }
+    .badgevermelhoescuro50{
+      border: solid 1px;
+      border-color: var(--vermelho-escuro50);
+      background-color: var(--vermelho-light);
+      font-size: var(--fonteparagrafos);
+      width:auto;
+      height: 1em;
+      padding: 0.25em 3em;
+      border-radius:1em;
+      font-weight: 500;
+      color: var(--vermelho-escuro50);
+      transition: all 500ms;
+      display:flex;
+      align-items: center;
+      justify-content:center;
+      cursor: context-menu;
+      img{
+          width:1em;
+          margin-left:1em;
+      }
+  }
     .badgeazul{
         border: solid 1px;
         border-color: var(--azul);
