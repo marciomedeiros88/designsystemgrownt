@@ -1,5 +1,5 @@
 .Lateral{
-    width:17%;
+    width:15%;
     padding:2em 2em 4em 2em;
     display:flex;
     flex-direction:column;
@@ -11,7 +11,7 @@
         
         list-style:none;
         color: var(--azul-escuro);
-        font-size: 16pt;
+        font-size: 14pt;
         margin: 1em auto;
         cursor: pointer;
         transition: scale 500ms;
@@ -29,7 +29,7 @@
 }
 
 .NumeroMenu{
-    font-size:20pt;
+    font-size:16pt;
     color:var(--bege);
     font-family:var(--fonte-titulos);
 }
