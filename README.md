@@ -1,4 +1,6 @@
-![001](https://github.com/marciomedeiros88/receitasapi/assets/118381472/3d6eff87-f83f-40d1-87a8-cccb39a923bb)
+
+![gif_design_system_grownt](https://github.com/user-attachments/assets/16b8fd3d-2e52-4972-97ff-937b3e48af27)
+
 
 Construção e desenvolvimento de front-end de aplicação do Design System da Gröwnt, auxiliando time de design, desenvolvimento, produto, comercial e Go To Market na difusão da cultura de consistência no design como forma de garantir nosso branding. Desenvolvido em React JS, html e scss.
 
