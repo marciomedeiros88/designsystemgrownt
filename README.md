@@ -25,4 +25,4 @@ npm run dev
 
 ## Stacks utilizadas
 
-**Front-end:** React, Vite, SCSS, Framer Motion
+**Front-end:** React, Vite, SCSS, Framer Motion, Tipeit e Lucide React
