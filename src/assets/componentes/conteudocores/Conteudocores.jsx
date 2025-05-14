@@ -10,6 +10,29 @@ function Conteudocores() {
   const begegrownt = "#DFDECB";
   const cinzagrownt = "#697480";
 
+  const root = `:root {
+    --laranja: #f15f38;
+    --laranja-escuro: #ee3000;
+    --azul-claro: #b8c9d3;
+    --azul-escuro: #1a2437;
+    --bege: #dfdecb;
+    --azul-medio: #99c5c8;
+    --cinza: #697480;
+    --cinza-claro: #f0f2f4;
+    --vermelho: #f03e3e;
+    --vermelho-escuro: #9b1e1e;
+    --verde-light: #E8F6EA;
+    --verde: #3c9c16;
+    --amarelo-light: #FFE3BA;
+    --amarelo: #e6931a;
+    --vermelho-light: #FFE7E7;
+    --vermelho: #f03e3e;
+    --azul-light:#CEE3FF;
+    --azul: #217EFD;
+    --lilas-light: #C8A9FF;
+    --lilas: #8749F3;
+  }`;
+
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async (cor) => {
@@ -24,6 +47,16 @@ function Conteudocores() {
 
     try {
       await navigator.clipboard.writeText(cor);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 3000); // Resetar após 2 segundos
+    } catch (err) {
+      console.error("Erro ao copiar!", err);
+    }
+  };
+
+  const handleCopyRoot = async (root) => {
+    try {
+      await navigator.clipboard.writeText(root);
       setCopied(true);
       setTimeout(() => setCopied(false), 3000); // Resetar após 2 segundos
     } catch (err) {
@@ -155,7 +188,64 @@ function Conteudocores() {
                   title="Copiar código hexadecimal"
                 />
               </p>
-              
+            </div>
+          </div>
+        </main>
+        <main className="Conteudocores">
+          <div className="cardcores">
+            <div class="titulocor">
+              <h2>Variáveis</h2>
+            </div>
+            <div className="blocoroot cinzaclarogrownt fonteazulescuro">
+              <p>
+                {" "}
+                --laranja: #f15f38;
+                <br />
+                --laranja-escuro: #ee3000;
+                <br />
+                --azul-light: #CEE3FF;
+                <br />
+                --azul: #217EFD;
+                <br />
+                --azul-claro: #b8c9d3;
+                <br />
+                --azul-escuro: #1a2437;
+                <br />
+                --azul-medio: #99c5c8;
+                <br />
+                --bege: #dfdecb;
+                <br />
+                --cinza: #697480;
+                <br />
+                --cinza-claro: #f0f2f4;
+                <br />
+                --vermelho: #f03e3e;
+                <br />
+                --vermelho-escuro: #9b1e1e;
+                <br />
+                --verde-light: #E8F6EA;
+                <br />
+                --verde: #3c9c16;
+                <br />
+                --amarelo-light: #FFE3BA;
+                <br />
+                --amarelo: #e6931a;
+                <br />
+                --vermelho-light: #FFE7E7;
+                <br />
+                --vermelho: #f03e3e;
+                <br />
+                --lilas-light: #C8A9FF;
+                <br />
+                --lilas: #8749F3;
+              </p>
+              <p>
+                <Copy
+                  onClick={() => handleCopyRoot(root)}
+                  className="iconCopyRoot"
+                  title="Copiar variáveis"
+                />
+              </p>
             </div>
           </div>
         </main>

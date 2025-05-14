@@ -79,7 +79,7 @@ function Lateral() {
           <li>
             <p>
               <Link to={"/badges"}>
-                <span className="NumeroMenu">11.</span> Badges
+                <span className="NumeroMenu">11.</span> Badges e toggles
               </Link>
             </p>
           </li>

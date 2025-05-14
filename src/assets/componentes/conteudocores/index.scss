@@ -83,6 +83,24 @@
             display: flex;
         }
     }
+    .blocoroot{
+        width:28em;
+        height:auto;
+        border-radius:1em;
+        margin-top:2em;
+        padding:1em;
+        display:flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap:1em;
+        p{  
+            font-size:10pt !important;
+            line-height: 1.6;
+            align-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
     .laranjagrownt{
         background-color: var(--laranja);
     }
@@ -100,6 +118,9 @@
     }
     .cinzagrownt{
         background-color: var(--cinza);
+    }
+    .cinzaclarogrownt{
+        background-color: var(--cinza-claro);
     }
     .fontebranca{
         color:white;
@@ -129,6 +150,12 @@
 
 .iconCopy{
     margin-left: 0.5em;
+    width: 15px;
+    height:15px;
+}
+
+.iconCopyRoot{
+    margin: 0.5em;
     width: 15px;
     height:15px;
 }

@@ -110,7 +110,26 @@
         font-family: var(--fonte-paragrafos) !important;
     }}
 
-    
+    .blocoroottipo{
+        width:28em;
+        height:auto;
+        border-radius:1em;
+        padding:1em;
+        display:flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap:1em;
+        p{  
+            font-size:10pt !important;
+            line-height: 1.6;
+            align-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .cinzaclarogrownt{
+        background-color: var(--cinza-claro);
+    }
 
     .botao{
         a{

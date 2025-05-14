@@ -63,33 +63,6 @@ function Conteudobadges() {
               Em análise
             </button>            
           </div>
-          
-          
-          
-          {/* <div className="exemplobotao">
-            <div className="titulobotao">
-              <p>Botão Vermelho</p>
-            </div>
-            <button className="botaovermelho">
-              Exemplo de botão vermelho <img src={iconfecharbranco} />
-            </button>
-            <button
-              className="botaobordavermelho"
-              onMouseEnter={() => setVermelhoHovered(true)}
-              onMouseLeave={() => setVermelhoHovered(false)}
-            >
-              {" "}
-              {Vermelhohovered ? (
-                <>
-                  Exemplo de botão vermelho <img src={iconfecharbranco} />
-                </>
-              ) : (
-                <>
-                  Exemplo de botão vermelho <img src={iconfecharvermelho} />
-                </>
-              )}
-            </button>
-          </div> */}
         </div>
         <div className="cardbadges">
           <div className="titulocardbadges">
@@ -130,34 +103,39 @@ function Conteudobadges() {
             <img src={IconAlertaLilas} />
             </button>          
           </div>
-          
-          
-          
-          {/* <div className="exemplobotao">
-            <div className="titulobotao">
-              <p>Botão Vermelho</p>
-            </div>
-            <button className="botaovermelho">
-              Exemplo de botão vermelho <img src={iconfecharbranco} />
-            </button>
-            <button
-              className="botaobordavermelho"
-              onMouseEnter={() => setVermelhoHovered(true)}
-              onMouseLeave={() => setVermelhoHovered(false)}
-            >
-              {" "}
-              {Vermelhohovered ? (
-                <>
-                  Exemplo de botão vermelho <img src={iconfecharbranco} />
-                </>
-              ) : (
-                <>
-                  Exemplo de botão vermelho <img src={iconfecharvermelho} />
-                </>
-              )}
-            </button>
-          </div> */}
         </div>
+        <div className="cardbadges">
+          <div className="titulocardbadges">
+            <h1 className="titulobadges">Biblioteca de toggles</h1>
+          </div>
+          <div className="titulobadges">
+            <p>Toggles switchs</p>
+          </div>
+          <div className="exemplotoggle">     
+            <label className="switch">
+              <input type="checkbox"></input>
+              <span className="sliderverde round"></span>
+            </label>
+            <label className="switch">
+              <input type="checkbox"></input>
+              <span className="slideramarelo round"></span>
+            </label>
+            <label className="switch">
+              <input type="checkbox"></input>
+              <span className="slidervermelho round"></span>
+            </label>
+            <label className="switch">
+              <input type="checkbox"></input>
+              <span className="sliderazul round"></span>
+            </label>
+            <label className="switch">
+              <input type="checkbox"></input>
+              <span className="sliderlilas round"></span>
+            </label>
+       
+          </div>
+          </div>
+        
       </div>
     </>
   );
