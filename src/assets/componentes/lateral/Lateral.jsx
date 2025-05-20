@@ -90,6 +90,13 @@ function Lateral() {
               </Link>
             </p>
           </li>
+          <li>
+            <p>
+              <Link to={"/modal"}>
+                <span className="NumeroMenu">13.</span> Modais e alertas
+              </Link>
+            </p>
+          </li>
         </ul>
       </main>
     </>

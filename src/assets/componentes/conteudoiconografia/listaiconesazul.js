@@ -259,5 +259,11 @@ export const listaiconesazul = [
       alt: "Ícone timesheet",
       title: "Ícone timesheet",
     },
+    {
+      id: 44,
+      img: "./icones/lixeiraazul.svg",
+      alt: "Ícone lixeira",
+      title: "Ícone lixeira",
+    },
   ];
   

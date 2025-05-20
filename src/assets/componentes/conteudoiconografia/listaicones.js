@@ -259,4 +259,10 @@ export const listaicones = [
     alt: "Ícone timesheet",
     title: "Ícone timesheet",
   },
+  {
+    id: 44,
+    img: "./icones/lixeira.svg",
+    alt: "Ícone lixeira",
+    title: "Ícone lixeira",
+  },
 ];

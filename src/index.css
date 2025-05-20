@@ -121,6 +121,6 @@ button {
 }
 
 button:hover {
-  background-color: var(--azul-claro);
+  background-color: var(--cinza);
   transition: all 500ms;
 }

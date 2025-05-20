@@ -1,0 +1,65 @@
+.Conteudomodal{
+    display:flex;
+    flex-direction: row;
+    width:90%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom:6em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+
+    .cardmodal{
+        width:100%;
+    }
+
+    .titulomodal{
+        color:#1a2437;
+        text-align:left;
+    }
+
+    .titulocardmodal{
+        display:flex;
+        margin-bottom:2em;
+    }
+
+}
+
+.modal{
+    padding: 2em;
+    border-radius: 1em;
+    border: solid 1px #f0f2f4;
+    box-shadow: 3px 3px 8px #e3e3e3;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+
+    h2{
+        font-family: var(--fonte-paragrafos);
+        font-size:20px;
+    }
+
+    .botoesmodal{
+        display:flex;
+        gap:0.75em;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .botaomodal{
+        width: 3em;
+        border-radius:2em;
+    }
+
+    .botaovermelho{
+        background-color: var(--vermelho);
+    }
+
+    .botaovermelho:hover{
+        background-color: var(--vermelho-escuro);
+    }
+}
