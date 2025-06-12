@@ -97,6 +97,13 @@ function Lateral() {
               </Link>
             </p>
           </li>
+          <li>
+            <p>
+              <Link to={"/charts"}>
+                <span className="NumeroMenu">14.</span> Gráficos
+              </Link>
+            </p>
+          </li>
         </ul>
       </main>
     </>
