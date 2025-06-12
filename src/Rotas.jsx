@@ -13,6 +13,7 @@ import Inputs from "./assets/componentes/inputs/Inputs";
 import Gro from "./assets/componentes/gro/Gro";
 import Badges from "./assets/componentes/badges/Badges";
 import Modal from "./assets/componentes/modal/Modal";
+import Graficos from "./assets/componentes/graficos/Graficos";
 
 //--CSS
 
@@ -52,6 +53,7 @@ function Rotas() {
           <Route exact path="/badges" element={<Badges />} />
           <Route exact path="/coressistema" element={<Coressistema />} />
           <Route exact path="/modal" element={<Modal />} />
+          <Route exact path="/charts" element={<Graficos />} />
         </Routes>
       </AnimatePresence>
     </>

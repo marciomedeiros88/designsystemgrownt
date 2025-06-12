@@ -7,6 +7,7 @@ import logobege from "../../imagens/Logotipo_grownt_bege.svg";
 import logocinza from "../../imagens/Logotipo_grownt_cinza.svg";
 import logocinzaescuro from "../../imagens/Logotipo_grownt_cinza_escuro.svg";
 import logopreto from "../../imagens/Logotipo_grownt_preto.svg";
+import info from "/icones/infocinza.svg";
 
 function Conteudologotipo() {
   return (
@@ -49,6 +50,26 @@ function Conteudologotipo() {
             </div>
             <div className="imagemlogomenor">
               <img src={logopreto} alt="Logo Gröwnt Preto" />
+            </div>
+          </div>
+        </div>
+        <div className="cardlogotipo">
+          <div className="info cinzaclarogrownt">
+            <div className="iconeinformacao">
+              <img src={info} />
+            </div>
+            <div className="subtitulomodal">
+              <h3>Atenção!</h3>
+            </div>
+            <div className="paragrafoinfo">
+              <p>
+                Não mudar as cores do logotipo.{" "}
+                <strong>
+                  As únicas cores que podemos aplicar o logotipo são as que
+                  estão nesta página, além das versões em preto e em branco,
+                  para qualquer outra cor não é autorizado o uso/alteração.
+                </strong>
+              </p>
             </div>
           </div>
         </div>

@@ -1,0 +1,45 @@
+.Conteudograficos{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom:6em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+    gap:2em;
+
+    .cardgrafico{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:2em;
+    }
+    .cardsgraficos{
+        display:flex;
+        flex-direction:row;
+        gap:2em;
+        width:90%;
+    }
+
+}
+
+.grafico{
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 3px 3px 8px #e3e3e3;
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+    font-family: var(--fonte-paragrafos) !important;
+
+    .fontegrafico{
+        font-family: var(--fonte-paragrafos) !important;
+    }
+
+}

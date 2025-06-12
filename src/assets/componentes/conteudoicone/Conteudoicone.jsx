@@ -6,6 +6,7 @@ import iconeazulclaro from "../../imagens/icone_grownt_azul_claro.svg";
 import iconebege from "../../imagens/icone_grownt_bege.svg";
 import iconecinza from "../../imagens/icone_grownt_cinza.svg";
 import iconeazulmedio from "../../imagens/icone_grownt_azul_medio.svg";
+import info from "/icones/infocinza.svg";
 
 function Conteudoicone() {
   return (
@@ -45,6 +46,26 @@ function Conteudoicone() {
             </div>
             <div className="imagemlogomenor">
               <img src={iconeazulmedio} alt="Ícone Gröwnt Azul Médio" />
+            </div>
+          </div>
+        </div>
+        <div className="cardlogotipo">
+          <div className="info cinzaclarogrownt">
+            <div className="iconeinformacao">
+              <img src={info} />
+            </div>
+            <div className="subtitulomodal">
+              <h3>Atenção!</h3>
+            </div>
+            <div className="paragrafoinfo">
+              <p>
+                Não mudar as cores do ícone.{" "}
+                <strong>
+                  As únicas cores que podemos aplicar o ícone são as que estão
+                  nesta página, além das versões em preto e em branco, para
+                  qualquer outra cor não é autorizado o uso/alteração.
+                </strong>
+              </p>
             </div>
           </div>
         </div>
