@@ -14,6 +14,10 @@ import Gro from "./assets/componentes/gro/Gro";
 import Badges from "./assets/componentes/badges/Badges";
 import Modal from "./assets/componentes/modal/Modal";
 import Graficos from "./assets/componentes/graficos/Graficos";
+import Identidadeverbal from "./assets/componentes/identidadeverbal/Identidadeverbal";
+import Tagline from "./assets/componentes/tagline/Tagline";
+import Manifesto from "./assets/componentes/manifesto/Manifesto";
+import Exemplos from "./assets/componentes/exemplos/Exemplos";
 
 //--CSS
 
@@ -54,6 +58,14 @@ function Rotas() {
           <Route exact path="/coressistema" element={<Coressistema />} />
           <Route exact path="/modal" element={<Modal />} />
           <Route exact path="/charts" element={<Graficos />} />
+          <Route
+            exact
+            path="/identidadeverbal"
+            element={<Identidadeverbal />}
+          />
+          <Route exact path="/tagline" element={<Tagline />} />
+          <Route exact path="/manifesto" element={<Manifesto />} />
+          <Route exact path="/exemplos" element={<Exemplos />} />
         </Routes>
       </AnimatePresence>
     </>

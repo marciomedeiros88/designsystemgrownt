@@ -1,0 +1,133 @@
+.Sectionexemplos{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:center;
+    width: 100%;
+    padding-bottom:10em;
+    height: auto;
+}
+
+.Conteudoexemplos{
+    display:flex;
+    flex-direction: row;
+    width:95%;
+    height: auto;
+    margin: auto;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+    gap:2em;
+
+    .cardexemplos{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width:auto;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-items: flex-start;
+        justify-content: flex-start;
+        padding:1em;
+        gap:3em;
+    }
+
+    .cardfundamentos{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        width:auto;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-items: flex-start;
+        justify-content: flex-start;
+        padding:1em;
+        gap:1em;
+    }
+
+    .titulocardtipografia{
+        margin-bottom:2em;
+    }
+
+    .underline{
+        text-decoration: underline;
+    }
+    .negrito{
+        font-weight:900;
+    }
+    .italico{
+        font-style:italic;
+    }
+
+    .fundamentos{
+        display:flex;
+        flex-direction:row;
+        gap:1em;
+    }
+
+    .boxtextoexemplos{
+        margin-top:1em;
+        padding:1em;
+        border-radius:1em;
+        background-color: var(--cinza-claro);
+        width:10em;
+        height:auto;
+
+    }
+    
+    .marginleft{
+        margin-left:2em;
+    }
+
+    .midwidth{
+        width:50%;
+    }
+
+    .tituloexemplos{
+        h1{
+        font-size:38pt;
+        font-weight: 600;
+        font-family: var(--fonte-titulos) !important;
+        }
+        h2{
+        font-size:28pt;
+        font-weight: 400;
+        font-family: var(--fonte-titulos) !important;
+        }
+        h3{
+        font-size:24pt;
+        font-weight: 400;
+        font-family: var(--fonte-titulos) !important;
+        }}
+
+    .paragrafo{
+        font-size:14pt;
+        font-weight: 300;
+        font-family: var(--fonte-paragrafos) !important;
+        h3{
+            font-size:24pt;
+            font-weight: 400;
+            font-family: var(--fonte-titulos) !important;
+        }
+    }
+
+    .imagemgro{
+            width:auto;
+            img{
+                width:12em;
+                height:12em;
+                border-radius:6em;
+    }}
+
+}
+
+.colunas{
+    flex-direction: column !important;
+}

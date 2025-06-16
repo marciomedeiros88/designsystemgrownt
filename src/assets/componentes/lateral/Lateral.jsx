@@ -104,6 +104,34 @@ function Lateral() {
               </Link>
             </p>
           </li>
+          <li>
+            <p>
+              <Link to={"/identidadeverbal"}>
+                <span className="NumeroMenu">15.</span> Identidade verbal
+              </Link>
+            </p>
+          </li>
+          <li>
+            <p>
+              <Link to={"/tagline"}>
+                <span className="NumeroMenu">16.</span> Tagline
+              </Link>
+            </p>
+          </li>
+          <li>
+            <p>
+              <Link to={"/manifesto"}>
+                <span className="NumeroMenu">17.</span> Manifesto
+              </Link>
+            </p>
+          </li>
+          <li>
+            <p>
+              <Link to={"/exemplos"}>
+                <span className="NumeroMenu">18.</span> Exemplos
+              </Link>
+            </p>
+          </li>
         </ul>
       </main>
     </>
