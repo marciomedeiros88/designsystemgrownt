@@ -132,6 +132,13 @@ function Lateral() {
               </Link>
             </p>
           </li>
+          <li>
+            <p>
+              <Link to={"/downloads"}>
+                <span className="NumeroMenu">19.</span> Downloads
+              </Link>
+            </p>
+          </li>
         </ul>
       </main>
     </>

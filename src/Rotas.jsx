@@ -18,6 +18,7 @@ import Identidadeverbal from "./assets/componentes/identidadeverbal/Identidadeve
 import Tagline from "./assets/componentes/tagline/Tagline";
 import Manifesto from "./assets/componentes/manifesto/Manifesto";
 import Exemplos from "./assets/componentes/exemplos/Exemplos";
+import Downloads from "./assets/componentes/downloads/Downloads";
 
 //--CSS
 
@@ -66,6 +67,7 @@ function Rotas() {
           <Route exact path="/tagline" element={<Tagline />} />
           <Route exact path="/manifesto" element={<Manifesto />} />
           <Route exact path="/exemplos" element={<Exemplos />} />
+          <Route exact path="/downloads" element={<Downloads />} />
         </Routes>
       </AnimatePresence>
     </>

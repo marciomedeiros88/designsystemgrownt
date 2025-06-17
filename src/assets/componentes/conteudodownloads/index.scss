@@ -1,0 +1,128 @@
+.Sectiondownloads{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:center;
+    width: 90%;
+    padding-bottom:10em;
+    height: auto;
+}
+
+.Conteudodownloads{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: auto;
+    margin: auto;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: flex-start;
+    align-items:flex-start;
+    justify-items: center;
+    justify-content: flex-start;
+    gap:1em;
+
+    .carddownloads{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-items: flex-start;
+        justify-content: flex-start;
+        padding:1em;
+        gap:1em;
+    }
+    .pills{
+        display:flex;
+        flex-direction: row;
+        gap:1em;
+        width:30em;
+    }
+    .pillspecimen{
+        height:0.5em;
+        margin-bottom:2em;
+        background-color: var(--azul-claro);
+        color:#1a2437;
+        text-align:left;
+        padding:1em;
+        border-radius:2em;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        p{
+            font-size:12pt;
+        }
+    }
+    .titulodownloads{
+        width:auto;
+        h1{
+        font-size:38pt;
+        font-weight: 600;
+        font-family: var(--fonte-titulos) !important;
+    }}
+    .subtitulodownloads{
+        width:auto;
+        h2{
+        font-size:20pt;
+        font-weight: 400;
+        font-family: var(--fonte-titulos) !important;
+    }}
+    .paragrafo{
+        width:50%;
+        padding-top:2em;
+        font-size:14pt;
+        font-weight: 300;
+        font-family: var(--fonte-paragrafos) !important;
+    }
+    .linhacards{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        padding-top:2em;
+        gap:1em;
+    }
+
+    .card{
+        display:flex;
+        flex-direction:column;
+        border-radius:1em;
+        background-color: var(--cinza-claro);
+        width:16em;
+    }
+    .thumb{
+        display:flex;
+        align-items:center;
+        width:auto;
+        max-height:80%;
+        overflow: hidden;
+        border-radius:1em 1em 0 0;
+
+        img{
+            width:100%;
+        }
+    }
+    .titulocard{
+        padding:1em;
+        h2{
+        font-size:16pt;
+        font-family: var(--fonte-paragrafos) !important; 
+    }}
+
+    .botao{
+        padding:1em;
+        a{
+            display:flex;
+            color:white;
+            align-items: center;
+            justify-items:center;
+        }
+        button{
+            margin:0 !important;
+            align-items:center;
+        }
+    }
+}
