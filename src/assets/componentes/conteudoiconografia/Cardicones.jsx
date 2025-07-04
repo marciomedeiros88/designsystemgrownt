@@ -1,7 +1,7 @@
 import "./index.scss";
 
 function Cardicones({ data }) {
-  console.log(data);
+  
   return (
     <>
       <div className="Iconeindividual">

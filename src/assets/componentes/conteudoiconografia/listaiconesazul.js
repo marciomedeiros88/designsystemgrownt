@@ -271,4 +271,11 @@ export const listaiconesazul = [
     alt: "Ícone atribuir tarefa",
     title: "Ícone atribuir tarefa",
   },
+  {
+    id: 46,
+    img: "./icones/editarazul.svg",
+    alt: "Ícone editar",
+    title: "Ícone editar",
+  },
 ];
+

@@ -15,7 +15,7 @@ import { listaiconesazul } from "./listaiconesazul.js"
 function Conteudoiconografia() {
 
     const lista = {listaicones};
-    console.log(lista)
+    
   return (
     <>
       <div className="Conteudoiconografia">
