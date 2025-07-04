@@ -89,6 +89,7 @@
     .card{
         display:flex;
         flex-direction:column;
+        //justify-content: space-between;
         border-radius:1em;
         background-color: var(--cinza-claro);
         width:16em;
