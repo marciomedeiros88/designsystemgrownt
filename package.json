@@ -1,7 +1,7 @@
 {
-  "name": "receitas",
+  "name": "Gröwnt Design System",
   "private": true,
-  "homepage": "http://www.marciomedeirosdesign.com.br/nucleoweb/receitasapi/",
+  "homepage": "http://www.grownt.tech",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
