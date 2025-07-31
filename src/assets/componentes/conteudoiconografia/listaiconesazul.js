@@ -277,5 +277,22 @@ export const listaiconesazul = [
     alt: "Ícone editar",
     title: "Ícone editar",
   },
+  {
+    id: 47,
+    img: "./icones/abrirazul.svg",
+    alt: "Ícone abrir",
+    title: "Ícone abrir",
+  },
+  {
+    id: 48,
+    img: "./icones/visualizarazul.svg",
+    alt: "Ícone visualizar",
+    title: "Ícone visualizar",
+  },
+  {
+    id: 49,
+    img: "./icones/hubazul.svg",
+    alt: "Ícone hub",
+    title: "Ícone hub",
+  },
 ];
-
