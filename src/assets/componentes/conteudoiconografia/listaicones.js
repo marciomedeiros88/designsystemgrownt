@@ -277,4 +277,28 @@ export const listaicones = [
     alt: "Ícone editar",
     title: "Ícone editar",
   },
+  {
+    id: 47,
+    img: "./icones/open.svg",
+    alt: "Ícone abrir",
+    title: "Ícone abrir",
+  },
+  {
+    id: 48,
+    img: "./icones/abrir.svg",
+    alt: "Ícone abrir",
+    title: "Ícone abrir",
+  },
+  {
+    id: 49,
+    img: "./icones/verazul.svg",
+    alt: "Ícone ver",
+    title: "Ícone ver",
+  },
+  {
+    id: 50,
+    img: "./icones/visualizarazul.svg",
+    alt: "Ícone visualizar",
+    title: "Ícone visualizar",
+  },
 ];
