@@ -277,5 +277,10 @@ export const listaiconesazul = [
     alt: "Ícone editar",
     title: "Ícone editar",
   },
+  {
+    id: 47,
+    img: "./icones/checkazul.svg",
+    alt: "Ícone check",
+    title: "Ícone check",
+  },
 ];
-
