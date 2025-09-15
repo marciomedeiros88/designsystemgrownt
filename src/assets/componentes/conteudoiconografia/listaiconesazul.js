@@ -279,6 +279,7 @@ export const listaiconesazul = [
   },
   {
     id: 47,
+
     img: "./icones/checkazul.svg",
     alt: "Ícone check",
     title: "Ícone check",
