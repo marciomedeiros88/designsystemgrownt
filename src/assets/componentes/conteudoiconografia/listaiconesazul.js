@@ -279,9 +279,10 @@ export const listaiconesazul = [
   },
   {
     id: 47,
-    img: "./icones/openazul.svg",
-    alt: "Ícone abrir",
-    title: "Ícone abrir",
+
+    img: "./icones/checkazul.svg",
+    alt: "Ícone check",
+    title: "Ícone check",
   },
   {
     id: 48,
@@ -300,5 +301,11 @@ export const listaiconesazul = [
     img: "./icones/visualizarazul.svg",
     alt: "Ícone visualizar",
     title: "Ícone visualizar",
+  },
+  {
+    id: 51,
+    img: "./icones/graficobarrasazul.svg",
+    alt: "Ícone gráfico barras",
+    title: "Ícone gráfico barras",
   },
 ];
