@@ -307,4 +307,5 @@ export const listaicones = [
     alt: "Ícone gráfico barras",
     title: "Ícone gráfico barras",
   },
+
 ];
