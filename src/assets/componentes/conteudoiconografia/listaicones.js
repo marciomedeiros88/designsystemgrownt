@@ -277,4 +277,10 @@ export const listaicones = [
     alt: "Ícone editar",
     title: "Ícone editar",
   },
+  {
+    id: 47,
+    img: "./icones/graficobarras.svg",
+    alt: "Ícone gráfico barras",
+    title: "Ícone gráfico barras",
+  },
 ];

@@ -277,5 +277,10 @@ export const listaiconesazul = [
     alt: "Ícone editar",
     title: "Ícone editar",
   },
+  {
+    id: 47,
+    img: "./icones/graficobarrasazul.svg",
+    alt: "Ícone gráfico barras",
+    title: "Ícone gráfico barras",
+  },
 ];
-
