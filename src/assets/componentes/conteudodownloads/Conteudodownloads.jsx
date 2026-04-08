@@ -126,7 +126,7 @@ function Conteudodownloads() {
                   <img src={imagemdife} alt="Thumbnail" />
                 </div>
                 <div className="titulocard">
-                  <h2>Diferenciais Gröwnt</h2>
+                  <h2>Diferenciais Grownt</h2>
                 </div>
                 <div className="botao">
                   <button>
@@ -146,7 +146,7 @@ function Conteudodownloads() {
                   <img src={imageminsti} alt="Thumbnail" />
                 </div>
                 <div className="titulocard">
-                  <h2>Institucional geral Gröwnt</h2>
+                  <h2>Institucional geral Grownt</h2>
                 </div>
                 <div className="botao">
                   <button>
@@ -166,7 +166,7 @@ function Conteudodownloads() {
                   <img src={imagemopor} alt="Thumbnail" />
                 </div>
                 <div className="titulocard">
-                  <h2>Oportunidades Gröwnt</h2>
+                  <h2>Oportunidades Grownt</h2>
                 </div>
                 <div className="botao">
                   <button>
@@ -188,7 +188,6 @@ function Conteudodownloads() {
               </div>
             </div>
             <div className="linhacards">
-
               <div className="card">
                 <div className="thumb">
                   <img src={imagempitchldb} alt="Thumbnail" />
@@ -348,8 +347,6 @@ function Conteudodownloads() {
                   </button>
                 </div>
               </div>
-
-
             </div>
 
             <div className="linhacards">

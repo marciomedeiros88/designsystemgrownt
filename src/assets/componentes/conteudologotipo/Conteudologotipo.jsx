@@ -18,7 +18,7 @@ function Conteudologotipo() {
             <p className="titulologotipo">Logotipo principal</p>
           </div>
           <div className="imagemlogo">
-            <img src={logo} alt="Logo Gröwnt Laranja" />
+            <img src={logo} alt="Logo Grownt Laranja" />
           </div>
         </div>
         <div className="cardlogotipo">
@@ -26,7 +26,7 @@ function Conteudologotipo() {
             <p className="titulologotipo">Logotipo secundário</p>
           </div>
           <div className="imagemlogo">
-            <img src={logoazulescuro} alt="Logo Gröwnt Azul Escuro" />
+            <img src={logoazulescuro} alt="Logo Grownt Azul Escuro" />
           </div>
         </div>
         <div className="cardlogotipo">
@@ -35,21 +35,21 @@ function Conteudologotipo() {
           </div>
           <div className="linhalogomenor">
             <div className="imagemlogomenor">
-              <img src={logoazulclaro} alt="Logo Gröwnt Azul Claro" />
+              <img src={logoazulclaro} alt="Logo Grownt Azul Claro" />
             </div>
             <div className="imagemlogomenor">
-              <img src={logobege} alt="Logo Gröwnt Bege" />
+              <img src={logobege} alt="Logo Grownt Bege" />
             </div>
             <div className="imagemlogomenor">
-              <img src={logocinza} alt="Logo Gröwnt Cinza" />
+              <img src={logocinza} alt="Logo Grownt Cinza" />
             </div>
           </div>
           <div className="linhalogomenor">
             <div className="imagemlogomenor">
-              <img src={logocinzaescuro} alt="Logo Gröwnt Cinza Escuro" />
+              <img src={logocinzaescuro} alt="Logo Grownt Cinza Escuro" />
             </div>
             <div className="imagemlogomenor">
-              <img src={logopreto} alt="Logo Gröwnt Preto" />
+              <img src={logopreto} alt="Logo Grownt Preto" />
             </div>
           </div>
         </div>

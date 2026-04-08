@@ -43,7 +43,7 @@ function Conteudomanifesto() {
                 <br />
                 Abrace Sua (R)evolução.
                 <br />
-                Gröwnt, Just Keep Growing.
+                Grownt, Just Keep Growing.
               </p>
             </div>
           </div>

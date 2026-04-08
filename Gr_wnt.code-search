@@ -1,0 +1,218 @@
+# Query: Gröwnt
+# Flags: RegExp
+# ContextLines: 1
+
+56 results - 14 files
+
+index.html:
+  10      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  11:     <meta name="author" content="Grownt" />
+  12      <meta
+  13        name="keywords"
+  14:       content="LDB, Inovação, Lei do Bem, Incentivos Fiscais, P&D, PD&I, Design System, Grownt, Identidade Visual, Design Patterns"
+  15      />
+  16:     <title>Design System Grownt</title>
+  17    </head>
+
+package-lock.json:
+  1  {
+  2:   "name": "Grownt Design System",
+  3    "version": "0.0.0",
+
+  8      "": {
+  9:       "name": "Grownt Design System",
+  10        "version": "0.0.0",
+
+src/assets/componentes/conteudocores/Conteudocores.jsx:
+   76              <div className="titulocor">
+   77:               <h1>Laranja Grownt</h1>
+   78              </div>
+
+   96              <div className="titulocor">
+   97:               <h1>Azul Grownt</h1>
+   98              </div>
+
+  118              <div className="titulocor">
+  119:               <h2>Azul Claro Grownt</h2>
+  120              </div>
+
+  138              <div className="titulocor">
+  139:               <h2>Azul Médio Grownt</h2>
+  140              </div>
+
+  158              <div className="titulocor">
+  159:               <h2>Bege Grownt</h2>
+  160              </div>
+
+  178              <div className="titulocor">
+  179:               <h2>Cinza Grownt</h2>
+  180              </div>
+
+src/assets/componentes/conteudodownloads/Conteudodownloads.jsx:
+  128                  <div className="titulocard">
+  129:                   <h2>Diferenciais Grownt</h2>
+  130                  </div>
+
+  148                  <div className="titulocard">
+  149:                   <h2>Institucional geral Grownt</h2>
+  150                  </div>
+
+  168                  <div className="titulocard">
+  169:                   <h2>Oportunidades Grownt</h2>
+  170                  </div>
+
+src/assets/componentes/conteudoexemplos/Conteudoexemplos.jsx:
+  88                <p>
+  89:                 Grö from Grownt.<br />
+  90                  AI Digital Character.<br />
+
+src/assets/componentes/conteudoicone/Conteudoicone.jsx:
+  19            <div className="imagemlogo">
+  20:             <img src={icone} alt="Ícone Grownt Laranja" />
+  21            </div>
+
+  27            <div className="imagemlogo">
+  28:             <img src={iconeazulescuro} alt="Ícone Grownt Azul Escuro" />
+  29            </div>
+
+  36              <div className="imagemlogomenor">
+  37:               <img src={iconeazulclaro} alt="Ícone Grownt Azul Claro" />
+  38              </div>
+  39              <div className="imagemlogomenor">
+  40:               <img src={iconebege} alt="Logo Grownt Bege" />
+  41              </div>
+
+  44              <div className="imagemlogomenor">
+  45:               <img src={iconecinza} alt="Ícone Grownt Cinza" />
+  46              </div>
+  47              <div className="imagemlogomenor">
+  48:               <img src={iconeazulmedio} alt="Ícone Grownt Azul Médio" />
+  49              </div>
+
+src/assets/componentes/conteudoidentidadeverbal/Conteudoidentidadeverbal.jsx:
+   50                  <br />
+   51:                 Ex: "A Grownt quer falar com você!". "Aqui na Grownt, nós..."
+   52                </p>
+
+  471                    seu potencial e conquiste um crescimento prolongado com a
+  472:                   Grownt ao seu lado. Aqui, unimos consultoria, tecnologia e
+  473                    expertise humana para cultivar um ambiente fértil no seu
+
+  481                    Desperte seu potencial e pare de hesitar — o crescimento é
+  482:                   implacável com a Grownt. Aqui, juntamos consultoria,
+  483                    tecnologia e expertise humana para fazer seu negócio prosperar
+
+  688                    <span className="underline negrito">Como dialogamos:</span> A
+  689:                   cultura da Grownt é marcada por um ambiente leve e
+  690                    colaborativo, com uma gestão sem microgerenciamento. O senso
+
+  698                    </span>{" "}
+  699:                   A cultura da Grownt, imersa em uma atmosfera etérea e quase
+  700                    tangível em sua leveza, encontra-se intrinsecamente
+
+src/assets/componentes/conteudoimagens/Conteudoimagens.jsx:
+  22              <div className="imagem">
+  23:               <img src={imagem001} alt="Exemplo imagem Grownt" />
+  24              </div>
+  25              <div className="imagem">
+  26:               <img src={imagem002} alt="Exemplo imagem Grownt" />
+  27              </div>
+  28              <div className="imagem">
+  29:               <img src={imagem003} alt="Exemplo imagem Grownt" />
+  30              </div>
+  31              <div className="imagem">
+  32:               <img src={imagem004} alt="Exemplo imagem Grownt" />
+  33              </div>
+  34              <div className="imagem">
+  35:               <img src={imagem005} alt="Exemplo imagem Grownt" />
+  36              </div>
+  37              <div className="imagem">
+  38:               <img src={imagem006} alt="Exemplo imagem Grownt" />
+  39              </div>
+  40              <div className="imagem">
+  41:               <img src={imagem007} alt="Exemplo imagem Grownt" />
+  42              </div>
+  43              <div className="imagem">
+  44:               <img src={imagem008} alt="Exemplo imagem Grownt" />
+  45              </div>
+  46              <div className="imagem">
+  47:               <img src={imagem009} alt="Exemplo imagem Grownt" />
+  48              </div>
+
+src/assets/componentes/conteudologotipo/Conteudologotipo.jsx:
+  20            <div className="imagemlogo">
+  21:             <img src={logo} alt="Logo Grownt Laranja" />
+  22            </div>
+
+  28            <div className="imagemlogo">
+  29:             <img src={logoazulescuro} alt="Logo Grownt Azul Escuro" />
+  30            </div>
+
+  37              <div className="imagemlogomenor">
+  38:               <img src={logoazulclaro} alt="Logo Grownt Azul Claro" />
+  39              </div>
+  40              <div className="imagemlogomenor">
+  41:               <img src={logobege} alt="Logo Grownt Bege" />
+  42              </div>
+  43              <div className="imagemlogomenor">
+  44:               <img src={logocinza} alt="Logo Grownt Cinza" />
+  45              </div>
+
+  48              <div className="imagemlogomenor">
+  49:               <img src={logocinzaescuro} alt="Logo Grownt Cinza Escuro" />
+  50              </div>
+  51              <div className="imagemlogomenor">
+  52:               <img src={logopreto} alt="Logo Grownt Preto" />
+  53              </div>
+
+src/assets/componentes/conteudomanifesto/Conteudomanifesto.jsx:
+  45                  <br />
+  46:                 Grownt, Just Keep Growing.
+  47                </p>
+
+src/assets/componentes/conteudotagline/Conteudotagline.jsx:
+   92                  • Inovação constante. Crescimento sustentável.<br />
+   93:                 • A Grownt transforma ideias em realizações.<br />
+   94                  • Inovação estratégica para negócios visionários.<br />
+
+   96                  • Construindo negócios mais fortes por meio da inovação contínua.<br />
+   97:                 • Na Grownt, sua visão encontra a inovação certa para prosperar.<br />
+   98                  • Conectando tecnologia e visão para transformar o futuro.<br />
+
+  100                  • Um ecossistema de possibilidades, onde a inovação progride.<br />
+  101:                 • A Grownt acelera sua jornada rumo à liderança.<br />
+  102                  • A mudança começa quando você escolhe inovar.<br />
+
+  104                  • Coragem para inovar. Força para crescer. <br />
+  105:                 • A GT agora é Grownt.
+  106                </p>
+
+  149                • Por um mundo mais human-centered tech.<br/>
+  150:               • Seja mais Grownt.<br/>
+  151                • Born innovators.<br/>
+
+src/assets/componentes/footer/Footer.jsx:
+  12            <p>Desenvolvido por</p>
+  13:           <img id="logo_rodape" src={logo} alt="Logo Grownt DS" />
+  14          </div>
+
+  19            >
+  20:             <img src={linkedin} alt="Linkedin Grownt" />
+  21            </a>
+  22            <a href="https://www.instagram.com/grownt.br/" target="_blank">
+  23:             <img src={instagram} alt="Instagram Grownt" />
+  24            </a>
+  25            <a href="https://www.youtube.com/@growntbr" target="_blank">
+  26:             <img src={youtube} alt="YouTube Grownt" />
+  27            </a>
+
+src/assets/componentes/header/Header.jsx:
+   8        <header className="Header">
+   9:         <img src={logo} alt="Logo Grownt DS" />
+  10:         <p>Design System da Grownt</p>
+  11        </header>
+
+src/assets/componentes/video/Video.jsx:
+  11              options={{
+  12:               strings: ["Prazer, eu sou o Design System da Grownt_"],
+  13                speed: 75,
