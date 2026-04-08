@@ -1,6 +1,6 @@
 ![gif_design_system_grownt](https://github.com/user-attachments/assets/16b8fd3d-2e52-4972-97ff-937b3e48af27)
 
-Construção e desenvolvimento de front-end de aplicação do Design System da Gröwnt, auxiliando time de design, desenvolvimento, produto, comercial e Go To Market na difusão da cultura de consistência no design como forma de garantir nosso branding.
+Construção e desenvolvimento de front-end de aplicação do Design System da Grownt, auxiliando time de design, desenvolvimento, produto, comercial e Go To Market na difusão da cultura de consistência no design como forma de garantir nosso branding.
 
 ## Stacks utilizadas
 
