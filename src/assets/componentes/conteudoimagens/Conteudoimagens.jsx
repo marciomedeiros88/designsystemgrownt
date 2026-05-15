@@ -9,49 +9,47 @@ import imagem007 from "../../imagens/007.jpg";
 import imagem008 from "../../imagens/008.jpg";
 import imagem009 from "../../imagens/009.jpg";
 
-
 function Conteudoimagens() {
-    return (
-      <>
-        <div className="Conteudoimagens">
-          <div className="cardimagens">
-            <div className="titulocardiicone">
-              <h1 className="tituloimagens">Imagens de referência</h1>
-            </div>
-            <div className="listaimagens">
+  return (
+    <>
+      <div className="Conteudoimagens">
+        <div className="cardimagens">
+          <div className="titulocardiicone">
+            <h1 className="tituloimagens">Imagens de referência</h1>
+          </div>
+          <div className="listaimagens">
             <div className="imagem">
-              <img src={imagem001} alt="Exemplo imagem Gröwnt" />
-            </div>
-            <div className="imagem">
-              <img src={imagem002} alt="Exemplo imagem Gröwnt" />
+              <img src={imagem001} alt="Exemplo imagem Grownt" />
             </div>
             <div className="imagem">
-              <img src={imagem003} alt="Exemplo imagem Gröwnt" />
+              <img src={imagem002} alt="Exemplo imagem Grownt" />
             </div>
             <div className="imagem">
-              <img src={imagem004} alt="Exemplo imagem Gröwnt" />
+              <img src={imagem003} alt="Exemplo imagem Grownt" />
             </div>
             <div className="imagem">
-              <img src={imagem005} alt="Exemplo imagem Gröwnt" />
+              <img src={imagem004} alt="Exemplo imagem Grownt" />
             </div>
             <div className="imagem">
-              <img src={imagem006} alt="Exemplo imagem Gröwnt" />
+              <img src={imagem005} alt="Exemplo imagem Grownt" />
             </div>
             <div className="imagem">
-              <img src={imagem007} alt="Exemplo imagem Gröwnt" />
+              <img src={imagem006} alt="Exemplo imagem Grownt" />
             </div>
             <div className="imagem">
-              <img src={imagem008} alt="Exemplo imagem Gröwnt" />
+              <img src={imagem007} alt="Exemplo imagem Grownt" />
             </div>
             <div className="imagem">
-              <img src={imagem009} alt="Exemplo imagem Gröwnt" />
+              <img src={imagem008} alt="Exemplo imagem Grownt" />
             </div>
+            <div className="imagem">
+              <img src={imagem009} alt="Exemplo imagem Grownt" />
             </div>
           </div>
         </div>
-      </>
-    );
-  }
-  
-  export default Conteudoimagens;
-  
+      </div>
+    </>
+  );
+}
+
+export default Conteudoimagens;

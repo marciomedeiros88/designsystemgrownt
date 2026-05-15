@@ -6,8 +6,8 @@ function Header() {
   return (
     <>
       <header className="Header">
-        <img src={logo} alt="Logo Gröwnt DS" />
-        <p>Design System da Gröwnt</p>
+        <img src={logo} alt="Logo Grownt DS" />
+        <p>Design System da Grownt</p>
       </header>
     </>
   );

@@ -74,7 +74,7 @@ function Conteudocores() {
               <p className="titulocores">Laranja primário</p>
             </div>
             <div className="titulocor">
-              <h1>Laranja Gröwnt</h1>
+              <h1>Laranja Grownt</h1>
             </div>
             <div className="blococor laranjagrownt fontebranca">
               <p>CMYK: C0/ M78 / Y85 / K0</p>
@@ -94,7 +94,7 @@ function Conteudocores() {
               <p className="titulocores">Azul primário</p>
             </div>
             <div className="titulocor">
-              <h1>Azul Gröwnt</h1>
+              <h1>Azul Grownt</h1>
             </div>
             <div className="blococor azulgrownt fontebranca">
               <p>CMYK: C88 / M77 / Y49 / K59</p>
@@ -116,7 +116,7 @@ function Conteudocores() {
               <p className="titulocores">Azul secundário</p>
             </div>
             <div className="titulocor">
-              <h2>Azul Claro Gröwnt</h2>
+              <h2>Azul Claro Grownt</h2>
             </div>
             <div className="blococorsecundaria azulclarogrownt fonteazulescuro">
               <p>CMYK: C11 / M0 / Y0 / K20</p>
@@ -136,7 +136,7 @@ function Conteudocores() {
               <p className="titulocores">Azul terciário</p>
             </div>
             <div className="titulocor">
-              <h2>Azul Médio Gröwnt</h2>
+              <h2>Azul Médio Grownt</h2>
             </div>
             <div className="blococorsecundaria azulmediogrownt fonteazulescuro">
               <p>CMYK: C40 / M9 / Y20 / K0</p>
@@ -156,7 +156,7 @@ function Conteudocores() {
               <p className="titulocores">Bege terciário</p>
             </div>
             <div className="titulocor">
-              <h2>Bege Gröwnt</h2>
+              <h2>Bege Grownt</h2>
             </div>
             <div className="blococorsecundaria begegrownt fonteazulescuro">
               <p>CMYK: C12 / M8 / Y20 / K0</p>
@@ -176,7 +176,7 @@ function Conteudocores() {
               <p className="titulocores">Cinza terciário</p>
             </div>
             <div className="titulocor">
-              <h2>Cinza Gröwnt</h2>
+              <h2>Cinza Grownt</h2>
             </div>
             <div className="blococorsecundaria cinzagrownt fontebranca">
               <p>CMYK: C17 / M5 / Y0 / K60</p>

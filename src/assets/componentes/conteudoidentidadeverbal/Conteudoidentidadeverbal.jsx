@@ -48,11 +48,13 @@ function Conteudoidentidadeverbal() {
                 <br />
                 • Alguns textos institucionais e promocionais.
                 <br />
-                Ex: "A Gröwnt quer falar com você!". "Aqui na Gröwnt, nós..."
+                Ex: "A Grownt quer falar com você!". "Aqui na Grownt, nós..."
               </p>
             </div>
           </div>
-          <hr style={{ border: '1px solid var(--cinza-claro)', width: '100%' }} />
+          <hr
+            style={{ border: "1px solid var(--cinza-claro)", width: "100%" }}
+          />
         </main>
         <main className="Conteudoidentidadeverbal">
           <div className="cardidentidadeverbal">
@@ -407,7 +409,9 @@ function Conteudoidentidadeverbal() {
               </div>
             </div>
           </div>
-          <hr style={{ border: '1px solid var(--cinza-claro)', width: '100%' }} />
+          <hr
+            style={{ border: "1px solid var(--cinza-claro)", width: "100%" }}
+          />
         </main>
         <main className="Conteudoidentidadeverbal">
           <div className="cardidentidadeverbal">
@@ -469,7 +473,7 @@ function Conteudoidentidadeverbal() {
                   <span className="underline negrito">Como dialogamos:</span>{" "}
                   Quem inova, cresce e quem cresce, lidera o mercado. Desperte o
                   seu potencial e conquiste um crescimento prolongado com a
-                  Gröwnt ao seu lado. Aqui, unimos consultoria, tecnologia e
+                  Grownt ao seu lado. Aqui, unimos consultoria, tecnologia e
                   expertise humana para cultivar um ambiente fértil no seu
                   negócio.
                 </p>
@@ -479,7 +483,7 @@ function Conteudoidentidadeverbal() {
                   </span>{" "}
                   Quem não inova, fica para trás. Quem não cresce, perde espaço.
                   Desperte seu potencial e pare de hesitar — o crescimento é
-                  implacável com a Gröwnt. Aqui, juntamos consultoria,
+                  implacável com a Grownt. Aqui, juntamos consultoria,
                   tecnologia e expertise humana para fazer seu negócio prosperar
                   custe o que custar.
                 </p>
@@ -686,7 +690,7 @@ function Conteudoidentidadeverbal() {
               <div className="boxtons">
                 <p className="paragrafo marginleft boxdos midwidth">
                   <span className="underline negrito">Como dialogamos:</span> A
-                  cultura da Gröwnt é marcada por um ambiente leve e
+                  cultura da Grownt é marcada por um ambiente leve e
                   colaborativo, com uma gestão sem microgerenciamento. O senso
                   de cooperação é forte, incentivando o apoio mútuo, a
                   transparência e uma interação saudável entre todos os
@@ -696,7 +700,7 @@ function Conteudoidentidadeverbal() {
                   <span className="underline negrito">
                     Como não dialogamos:
                   </span>{" "}
-                  A cultura da Gröwnt, imersa em uma atmosfera etérea e quase
+                  A cultura da Grownt, imersa em uma atmosfera etérea e quase
                   tangível em sua leveza, encontra-se intrinsecamente
                   entrelaçada com um ethos colaborativo, onde a gestão se
                   configura não como uma estrutura opressiva e impositiva, mas
