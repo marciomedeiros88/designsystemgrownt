@@ -10,20 +10,17 @@ function Footer() {
       <footer className="Footer">
         <div className="text">
           <p>Desenvolvido por</p>
-          <img id="logo_rodape" src={logo} alt="Logo Gröwnt DS" />
+          <img id="logo_rodape" src={logo} alt="Logo Grownt DS" />
         </div>
         <div className="redes">
-          <a
-            href="https://www.linkedin.com/company/growntbr/"
-            target="_blank"
-          >
-            <img src={linkedin} alt="Linkedin Gröwnt" />
+          <a href="https://www.linkedin.com/company/growntbr/" target="_blank">
+            <img src={linkedin} alt="Linkedin Grownt" />
           </a>
           <a href="https://www.instagram.com/grownt.br/" target="_blank">
-            <img src={instagram} alt="Instagram Gröwnt" />
+            <img src={instagram} alt="Instagram Grownt" />
           </a>
           <a href="https://www.youtube.com/@growntbr" target="_blank">
-            <img src={youtube} alt="YouTube Gröwnt" />
+            <img src={youtube} alt="YouTube Grownt" />
           </a>
         </div>
       </footer>

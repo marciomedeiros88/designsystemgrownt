@@ -17,7 +17,7 @@ function Conteudoicone() {
             <p className="titulologotipo">Ícone principal</p>
           </div>
           <div className="imagemlogo">
-            <img src={icone} alt="Ícone Gröwnt Laranja" />
+            <img src={icone} alt="Ícone Grownt Laranja" />
           </div>
         </div>
         <div className="cardlogotipo">
@@ -25,7 +25,7 @@ function Conteudoicone() {
             <p className="titulologotipo">Ícone secundário</p>
           </div>
           <div className="imagemlogo">
-            <img src={iconeazulescuro} alt="Ícone Gröwnt Azul Escuro" />
+            <img src={iconeazulescuro} alt="Ícone Grownt Azul Escuro" />
           </div>
         </div>
         <div className="cardlogotipo">
@@ -34,18 +34,18 @@ function Conteudoicone() {
           </div>
           <div className="linhalogomenor">
             <div className="imagemlogomenor">
-              <img src={iconeazulclaro} alt="Ícone Gröwnt Azul Claro" />
+              <img src={iconeazulclaro} alt="Ícone Grownt Azul Claro" />
             </div>
             <div className="imagemlogomenor">
-              <img src={iconebege} alt="Logo Gröwnt Bege" />
+              <img src={iconebege} alt="Logo Grownt Bege" />
             </div>
           </div>
           <div className="linhalogomenor">
             <div className="imagemlogomenor">
-              <img src={iconecinza} alt="Ícone Gröwnt Cinza" />
+              <img src={iconecinza} alt="Ícone Grownt Cinza" />
             </div>
             <div className="imagemlogomenor">
-              <img src={iconeazulmedio} alt="Ícone Gröwnt Azul Médio" />
+              <img src={iconeazulmedio} alt="Ícone Grownt Azul Médio" />
             </div>
           </div>
         </div>
