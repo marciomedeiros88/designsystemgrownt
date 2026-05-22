@@ -16,7 +16,7 @@ function Footer() {
           <a href="https://www.linkedin.com/company/growntbr/" target="_blank">
             <img src={linkedin} alt="Linkedin Grownt" />
           </a>
-          <a href="https://www.instagram.com/grownt.br/" target="_blank">
+          <a href="https://www.instagram.com/grownt.tech/" target="_blank">
             <img src={instagram} alt="Instagram Grownt" />
           </a>
           <a href="https://www.youtube.com/@growntbr" target="_blank">
