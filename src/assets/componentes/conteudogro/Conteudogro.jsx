@@ -8,6 +8,9 @@ import imagem006 from "../../imagens/gro/006.jpg";
 import imagem007 from "../../imagens/gro/007.jpg";
 import imagem008 from "../../imagens/gro/008.jpg";
 import imagem009 from "../../imagens/gro/009.jpg";
+import imagem010 from "../../imagens/gro/010.jpg";
+import imagem011 from "../../imagens/gro/011.jpg";
+import imagem012 from "../../imagens/gro/012.jpg";
 
 function Conteudogro() {
   return (
@@ -44,6 +47,15 @@ function Conteudogro() {
             </div>
             <div className="imagemgro">
               <img src={imagem009} alt="Exemplo imagem Grö" />
+            </div>
+            <div className="imagemgro">
+              <img src={imagem010} alt="Exemplo imagem Grö" />
+            </div>
+            <div className="imagemgro">
+              <img src={imagem011} alt="Exemplo imagem Grö" />
+            </div>
+            <div className="imagemgro">
+              <img src={imagem012} alt="Exemplo imagem Grö" />
             </div>
           </div>
         </div>
